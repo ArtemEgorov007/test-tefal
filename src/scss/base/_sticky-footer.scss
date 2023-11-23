@@ -1,0 +1,19 @@
+html,
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.body__page {
+	position: relative;
+}
+
+.footer {
+	margin-top: auto;
+}
+
+.footer {
+	padding: 6rem 0;
+	background-color: #e3e3e3;
+}

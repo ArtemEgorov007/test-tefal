@@ -1,0 +1,30 @@
+html {
+	scroll-behavior: smooth;
+	font-size: 65%;
+
+	@include tablet {
+		font-size: 51%;
+	}
+
+	@include small-tablet {
+		font-size: 51.25%;
+	}
+
+	@include mobile {
+		font-size: 45%;
+	}
+
+	@include mini-mobile {
+		font-size: 25%;
+	}
+
+	@include for-desktop {
+		font-size: 75%;
+	}
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+	font-family: var(--font-main);
+}

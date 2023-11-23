@@ -1,0 +1,27 @@
+:root {
+	--container-width: 120rem;
+	--container-padding: 1.5rem;
+
+	--container-width-card: 38rem;
+	--container-padding-card: 0.5rem;
+
+	--container-width-card__neva: 100rem;
+	--container-padding-card__neva: 1.5rem;
+
+	--font-main: "Circe", sans-serif;
+	--font-accent: "Playfair Display", serif;
+
+	--page-bg: #fff;
+	--text-color: #000;
+	--accent: #ac182c;
+	--section-gray: #383838;
+
+	--laptop-size: 119rem;
+	--tablet-size: 95rem;
+	--mobile-size: 59rem;
+}
+
+.dark {
+	--page-bg: #252526;
+	--text-color: #fff;
+}

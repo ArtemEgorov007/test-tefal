@@ -1,0 +1,107 @@
+.stickers {
+	padding: 4rem 0 3rem 0;
+	background: var(--section-gray);
+	min-height: 15rem;
+	@include big-desktop {
+		background: var(--text-color);
+	}
+
+	@include mini-mobile {
+		height: 35rem;
+	}
+
+	@include small-tablet {
+		height: 30rem;
+	}
+
+	&__container {
+		gap: 2rem;
+		@include small-tablet {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		@include mini-mobile {
+			gap: 5rem;
+			flex-wrap: wrap;
+		}
+	}
+
+	&__info {
+		max-width: 66rem;
+		width: 100%;
+		gap: 1rem;
+	}
+
+	&__content {
+		gap: 1rem;
+		@include mini-mobile {
+			gap: 2rem;
+			flex-direction: row-reverse;
+		}
+	}
+
+	&__exchange {
+		gap: 1rem;
+		@include mini-mobile {
+			gap: 2rem;
+			flex-direction: row-reverse;
+		}
+	}
+
+	&__title {
+		color: #fff;
+		// font-family: Circe;
+		font-size: 3.5rem;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 4rem;
+		text-transform: uppercase;
+	}
+
+	&__subtitle {
+		color: #fff;
+		// font-family: Circe;
+		font-size: 3rem;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 4rem;
+	}
+
+	&__info-logotype {
+		max-width: 10rem;
+		width: 100%;
+		gap: 2rem;
+	}
+
+	&__subtitle-exchange {
+		color: #fff;
+		// font-family: Circe;
+		font-size: 3.5rem;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 4rem; /* 100% */
+		text-transform: uppercase;
+	}
+
+	&__discount {
+		color: #fff;
+		text-align: center;
+		// font-family: Circe;
+		font-size: 9rem;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 5rem;
+		text-transform: uppercase;
+		@include mini-mobile {
+			font-size: 12rem;
+		}
+	}
+}
+
+.logo-arrow {
+	width: 3%;
+	@include mini-mobile {
+		display: none;
+	}
+}

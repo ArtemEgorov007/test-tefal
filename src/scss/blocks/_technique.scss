@@ -1,0 +1,19 @@
+.technique {
+	min-height: 30rem;
+
+	&__title {
+		margin: 5rem 0;
+		color: #000;
+		font-feature-settings: "clig" off, "liga" off;
+
+		font-size: 3rem;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 5rem;
+	}
+
+	&__logo {
+		width: 30%;
+		margin-bottom: 5rem;
+	}
+}

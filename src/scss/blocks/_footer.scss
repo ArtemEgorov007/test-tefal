@@ -1,0 +1,33 @@
+.footer {
+	background: #000;
+	padding: 5rem 0;
+	// font-size: 2rem;
+	color: #fff;
+
+	&__flex {
+		gap: 3rem;
+		margin-bottom: 3rem;
+		@include small-tablet {
+			display: block;
+		}
+	}
+
+	&__button {
+		@include small-tablet {
+			margin-bottom: 3rem;
+		}
+	}
+
+	p {
+		color: #fff;
+		// font-family: Circe;
+		font-size: 1.5rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 2.5rem;
+
+		@include small-tablet {
+			font-size: 2rem;
+		}
+	}
+}

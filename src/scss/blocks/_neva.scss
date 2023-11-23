@@ -1,0 +1,74 @@
+.neva {
+	background-image: url();
+	min-height: 30rem;
+	padding: 7rem 0 7rem 0;
+
+	&__logo-and-image {
+		gap: 11rem;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 2rem;
+		@include mini-mobile {
+			flex-wrap: wrap;
+			gap: 6rem;
+		}
+	}
+
+	&__text {
+		color: #000;
+		// font-family: Circe;
+		font-size: 2rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	&__additional-content {
+		@include small-tablet {
+			flex-wrap: wrap;
+			gap: 6rem;
+			margin: 0 auto;
+			align-items: center;
+			justify-content: center;
+		}
+
+		@include mini-mobile {
+			flex-wrap: wrap;
+			gap: 6rem;
+			margin: 0 auto;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+}
+
+.logotype-neva {
+	background-image: url("./../img/background/background-section-2.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Induction {
+	gap: 20rem;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 11rem;
+
+	@include small-tablet {
+		flex-wrap: wrap;
+		gap: 6rem;
+		margin: 0 auto;
+		align-items: center;
+		justify-cntent: center;
+	}
+
+	@include mini-mobile {
+		flex-wrap: wrap;
+		gap: 15rem;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: center;
+	}
+}

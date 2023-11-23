@@ -1,0 +1,27 @@
+.header {
+	background-color: transparent;
+	padding: 5rem 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		@include mini-mobile {
+			justify-content: center;
+		}
+	}
+
+	&__icons {
+		width: 50%;
+		gap: 7rem;
+		@include mini-mobile {
+			width: 80%;
+		}
+	}
+}

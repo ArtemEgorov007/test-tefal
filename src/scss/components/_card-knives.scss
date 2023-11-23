@@ -1,0 +1,21 @@
+.card-knives {
+	margin-top: 5rem;
+    padding: 3rem;
+	@include small-tablet {
+		gap: 6rem;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: center;
+	}
+	&__price {
+		width: 60%;
+	}
+
+	&__container {
+		@include small-tablet {
+			flex-wrap: wrap;
+            gap: 6rem;
+			flex-direction: column-reverse;
+		}
+	}
+}

@@ -715,14 +715,15 @@ body {
   background-size: cover;
 }
 
-.Induction {
-  justify-content: space-between;
+.induction {
+  gap: 18rem;
+  justify-content: center;
   align-items: center;
   margin: 0 auto;
   margin-top: 11rem;
 }
 @media (max-width: 768px) {
-  .Induction {
+  .induction {
     flex-wrap: wrap;
     gap: 6rem;
     margin: 0 auto;
@@ -731,7 +732,7 @@ body {
   }
 }
 @media (max-width: 375px) {
-  .Induction {
+  .induction {
     flex-wrap: wrap;
     gap: 15rem;
     margin: 0 auto;

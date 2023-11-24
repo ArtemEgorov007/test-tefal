@@ -255,7 +255,7 @@ html {
     font-size: 45%;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   html {
     font-size: 25%;
   }
@@ -319,7 +319,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .header__row {
     justify-content: center;
   }
@@ -328,7 +328,7 @@ body {
   width: 50%;
   gap: 7rem;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .header__icons {
     width: 80%;
   }
@@ -395,7 +395,7 @@ body {
   align-items: center;
   display: none;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .mobile-nav-btn {
     display: none;
   }
@@ -457,7 +457,7 @@ body {
   padding: 22rem 0 10rem 0;
   min-height: 80rem;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .discounts {
     padding: 32rem 0 10rem 0;
     min-height: 122rem;
@@ -517,12 +517,12 @@ body {
   max-width: 43rem;
   height: 8rem;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .discounts__info {
     flex-wrap: wrap;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .discounts__image {
     width: 40%;
   }
@@ -538,7 +538,7 @@ body {
   font-weight: 400;
   line-height: 2rem;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .discounts__note {
     font-size: 3rem;
     line-height: 4rem;
@@ -552,7 +552,7 @@ body {
   background-size: cover;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .logotype-discounts {
     background-image: url("./../img/background/background-section-1small.png");
     background-position: center;
@@ -584,7 +584,7 @@ body {
     justify-content: center;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .stickers__container {
     gap: 5rem;
     flex-wrap: wrap;
@@ -598,7 +598,7 @@ body {
 .stickers__content {
   gap: 1rem;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .stickers__content {
     gap: 2rem;
     flex-direction: row-reverse;
@@ -607,7 +607,7 @@ body {
 .stickers__exchange {
   gap: 1rem;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .stickers__exchange {
     gap: 2rem;
     flex-direction: row-reverse;
@@ -650,7 +650,7 @@ body {
   line-height: 5rem;
   text-transform: uppercase;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .stickers__discount {
     font-size: 12rem;
   }
@@ -659,7 +659,7 @@ body {
 .logo-arrow {
   width: 3%;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .logo-arrow {
     display: none;
   }
@@ -676,7 +676,7 @@ body {
   align-items: center;
   margin-bottom: 2rem;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .neva__logo-and-image {
     flex-wrap: wrap;
     gap: 6rem;
@@ -698,7 +698,7 @@ body {
     justify-content: center;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .neva__additional-content {
     flex-wrap: wrap;
     gap: 6rem;
@@ -731,7 +731,7 @@ body {
     justify-content: center;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .induction {
     flex-wrap: wrap;
     gap: 15rem;
@@ -770,7 +770,7 @@ body {
   background-size: cover;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .logotype-knives {
     background-image: url("./../img/background/background-section-3.5m.png");
     background-position: center;
@@ -891,7 +891,7 @@ body {
   align-items: center;
   padding: 5rem;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .card-backgound__container {
     padding: 0;
     margin: 0 auto 10rem;
@@ -900,7 +900,7 @@ body {
 .card-backgound__logo {
   display: none;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .card-backgound__logo {
     display: block;
   }
@@ -912,7 +912,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .logotype-card-background {
     background-image: none;
   }

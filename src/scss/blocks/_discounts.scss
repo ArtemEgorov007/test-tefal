@@ -1,9 +1,9 @@
 .discounts {
 	padding: 22rem 0 10rem 0;
-	height: 80rem;
+	min-height: 80rem;
 	@include mini-mobile {
 		padding: 32rem 0 10rem 0;
-		height: 122rem;
+		min-height: 122rem;
 	}
 
 	&__date {

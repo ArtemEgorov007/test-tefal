@@ -50,8 +50,8 @@
 }
 
 .Induction {
-	gap: 20rem;
-	justify-content: center;
+	// gap: 20rem;
+	justify-content: space-between;
 	align-items: center;
 	margin: 0 auto;
 	margin-top: 11rem;
@@ -61,7 +61,7 @@
 		gap: 6rem;
 		margin: 0 auto;
 		align-items: center;
-		justify-cntent: center;
+		justify-content: center;
 	}
 
 	@include mini-mobile {

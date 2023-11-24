@@ -15,18 +15,16 @@
 		"gulp-imagemin": "^7.1.0",
 		"gulp-notify": "^4.0.0",
 		"gulp-plumber": "^1.2.1",
-		"gulp-sass": "^5.1.0",
+		"gulp-sass": "^5.0.0",
 		"gulp-sass-glob": "^1.1.0",
 		"gulp-server-livereload": "^1.9.2",
 		"gulp-sourcemaps": "^3.0.0",
 		"gulp-webp": "^4.0.1",
 		"gulp-webp-css": "^1.1.0",
 		"gulp-webp-html": "^1.0.2",
-		"i": "^0.3.7",
-		"npm": "^9.7.2",
-		"sass": "^1.63.4",
-		"style-loader": "^3.3.3",
-		"webpack-stream": "^7.0.0"
+		"style-loader": "^3.0.0",
+		"webpack-stream": "^7.0.0",
+		"postcss-loader": "^5.3.0"
 	},
 	"babel": {
 		"presets": [

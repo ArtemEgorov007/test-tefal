@@ -1,6 +1,6 @@
 .discounts {
 	padding: 22rem 0 10rem 0;
-	min-height: 80rem;
+	min-height: 90rem;
 	@include mini-mobile {
 		padding: 32rem 0 10rem 0;
 		min-height: 122rem;
@@ -71,6 +71,12 @@
 		gap: 2.4rem;
 		max-width: 43rem;
 		height: 8rem;
+
+		@include mobile {
+			flex-wrap: wrap;
+			width: 25%;
+		}
+
 		@include mini-mobile {
 			flex-wrap: wrap;
 		}
@@ -78,7 +84,7 @@
 
 	&__image {
 		@include mini-mobile {
-			width: 40%;
+			width: 90%;
 		}
 	}
 

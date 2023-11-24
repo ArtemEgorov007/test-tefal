@@ -445,7 +445,7 @@ body {
 
 .discounts {
   padding: 22rem 0 10rem 0;
-  min-height: 80rem;
+  min-height: 90rem;
 }
 @media (max-width: 375px) {
   .discounts {
@@ -507,6 +507,12 @@ body {
   max-width: 43rem;
   height: 8rem;
 }
+@media (max-width: 576px) {
+  .discounts__info {
+    flex-wrap: wrap;
+    width: 25%;
+  }
+}
 @media (max-width: 375px) {
   .discounts__info {
     flex-wrap: wrap;
@@ -514,7 +520,7 @@ body {
 }
 @media (max-width: 375px) {
   .discounts__image {
-    width: 40%;
+    width: 90%;
   }
 }
 .discounts__note {

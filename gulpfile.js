@@ -1,6 +1,6 @@
 const gulp = require("gulp");
 const clean = require("gulp-clean");
-const sass = require("gulp-sass");
+const sass = require("gulp-sass")(require("sass"));
 const imagemin = require("gulp-imagemin");
 const server = require("gulp-server-livereload");
 const concat = require("gulp-concat");
